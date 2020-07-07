@@ -39,8 +39,21 @@ typedef struct alumno_s {
 
 /*=====[Prototypes (declarations) of public functions]=======================*/
 
+/**
+ * @brief Serializar Alumno
+ * @details Información para Serializar Alumno
+ * @param cadena: char
+ * @param espacio
+ * @param alumno
+ */
 bool SerializarAlumno(char * cadena, size_t espacio, const alumno_t alumno);
 
+/**
+ * @brief Serializar Alumnos
+ * @details para Serializar Alumnos
+ * @param cadena: char
+ * @param espacio
+ */
 bool SerializarAlumnos(char * cadena, size_t espacio);
 
 /*=====[Prototypes (declarations) of public interrupt functions]=============*/
